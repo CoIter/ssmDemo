@@ -4,6 +4,6 @@
     <title>Title</title>
 </head>
 <body>
-${user.userName}
+用户名 ：${user.userName}
 </body>
 </html>
