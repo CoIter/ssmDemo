@@ -19,6 +19,7 @@ public class FirstController {
     public String index(ModelMap map){
         User user=userService.getUserById("1");
 //        System.out.println(user.getUserName());
+        System.err.println(user.getUserName());
         map.put("user",user);
         return "test";
     }
